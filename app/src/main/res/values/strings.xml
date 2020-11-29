@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AcaziaRecruitment</string>
+    <string name="label_welcome">Welcome Acazia!</string>
+    <string name="label_mail">Your phone number</string>
+    <string name="label_password">Password</string>
+    <string name="label_login">Login</string>
+    <string name="label_or_login_with">or Login with</string>
+    <string name="label_not_a_turino_user_yet">Not a Turino user yet?</string>
+    <string name="label_sign_up_here">Sign up here</string>
+    <string name="label_remember_me">Remember me</string>
+    <string name="label_forgot_password">Forgot password ?</string>
+    <string name="label_favorites">Favorites</string>
+    <string name="label_home">Home</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_name_test">Takizawa Laura</string>
+    <string name="label_fail">Fail, Please try again! :((.</string>
+    <string name="label_try_again">Request</string>
+    <string name="label_login_success">Login success!</string>
+    <string name="label_logout_success">Logout success!.</string>
+    <string name="label_message_logout">Are you sure you want to logout?</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_cancel">No</string>
+</resources>

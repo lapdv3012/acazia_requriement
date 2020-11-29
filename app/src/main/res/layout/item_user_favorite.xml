@@ -1,0 +1,67 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="6dp"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingBottom="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.mobile.acaziarecruitment.ui.widgets.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/ic_test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/image"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/name"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_4"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black_363a45"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Lionel Messi" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/address"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_4"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black_363a45"
+                    android:textSize="@dimen/sp_13"
+                    tools:text="Lionel Messi" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

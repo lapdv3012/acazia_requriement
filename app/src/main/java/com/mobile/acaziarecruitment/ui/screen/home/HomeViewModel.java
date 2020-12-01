@@ -50,7 +50,8 @@ public class HomeViewModel extends ViewModel {
     }
 
     public void saveFavoriteUser(Result result) {
-        Observable.just(ResultLocal.getData(MainApplication.getInstance()))
+        List<Result> resultList = ResultLocal.getData(MainApplication.getInstance());
+        Observable.just(resultList != null ? resultList : new ArrayList<Result>())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new BaseObserver<List<Result>>() {
                     @Override
